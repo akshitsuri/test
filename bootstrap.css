@@ -1,0 +1,22 @@
+body{ 
+
+    
+    background: url(https://png.pngtree.com/thumb_back/fh260/back_our/20190619/ourmid/pngtree-creative-pink-flower-background-image_136005.jpg);
+
+background-size:cover;
+
+}
+.me
+{
+    text-align: center;
+    margin-top: 21%;
+    text-decoration: bold;
+    text-shadow: green;
+}
+h1,h3{
+    color:black;
+    font-weight: 800;
+}
+html{
+    height:100%;
+}
