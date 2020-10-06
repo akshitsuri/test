@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Papaer.js Exercise</title>
+    <link rel="stylesheet" type="text/css" href="31.css">
+
+</head>
+
+<body>
+
+    <canvas id="canvas" resize hidpi="off" style="background:black;"></canvas>
+
+
+
+
+    <script type="text/javascript" src="paper-full.js"></script>
+    <!-- <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.js"></script> -->
+    <script type="text/paperscript" canvas="canvas">
+        for(var i=0;i<1000;i+=100)
+        for(var j=0;j<1000;j+=100)
+         { 
+         	var myCircle=new Path.Circle(new Point(i,j),10); myCircle.fillColor='white' ; 
+     } 
+ </script>
+</body>
+
+</html>
